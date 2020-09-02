@@ -20,7 +20,6 @@ def hist_normalization(img, a=0, b=255):
     out = out.astype(np.uint8)
     return out
 
-
 # Read image
 img  = cv2.imread("imori_dark.jpg").astype(np.float)
 H, W, C = img.shape
