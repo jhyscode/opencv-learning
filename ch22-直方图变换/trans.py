@@ -7,8 +7,6 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-from matplotlib import pyplot as plt
-import cv2
 
 image = cv2.imread("../data/lena1.jpg")
 cv2.imshow("Original",image)
